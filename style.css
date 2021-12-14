@@ -42,7 +42,7 @@ label i.fas{
   pointer-events: auto;
   transform: translate(-50%, -50%) rotate(180deg);
 }
-#click:checked ~ label i.far{
+#click:checked ~ label i.fab{
   opacity: 0;
   pointer-events: none;
   transform: translate(-50%, -50%) rotate(180deg);
