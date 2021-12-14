@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Voting Box Design | Choice coin</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <input type="checkbox" id="click">
+  <label for="click">
+    <i class="far fa-envelope"></i>
+    <!-- <i class="fal fa-poll"></i> -->
+    <!-- <i class="fab fa-facebook-messenger"></i> -->
+    <!-- <i class="fas fa-poll"></i> -->
+    <i class="fas fa-times"></i>
+  </label>
+  <div class="wrapper">
+    <div class="head-text">Choice coin</div>
+    <div class="chat-box">
+      <div class="links">
+        <div class="facebook" onclick="ConnectAccount()">Connect Wallet
+        </div>
+      </div>
+      <div class="desc-text">Place your Vote </div>
+      <form action="#">
+        <!-- <div class="field">
+            <input type="text" placeholder="Your Name" required>
+          </div> -->
+        <div class="field">
+          <input type="text" placeholder="Issue Number" required>
+        </div>
+        <div class="field textarea">
+          <textarea cols="30" rows="10" placeholder="issuues to be voted on" required></textarea>
+        </div>
+        <div class="rand-btn">
+          <input type="button" class="true" value="YES" />
+          <input type="button" class="false" value="NO" />
+        </div>
+        <div class="field">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
